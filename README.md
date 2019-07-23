@@ -1,3 +1,4 @@
 # Independence-Day
-Count down my discharge date from military  
-https://epikjjh.github.io/Independence-Day/
+## 19-1 Vacathon(Vacation + Hackathon)
+Playing with simple html + css + javascript<br>
+see result in https://epikjjh.github.io/Independence-Day/
