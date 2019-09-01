@@ -6,10 +6,6 @@ div{
   	max-width: 750px;
   	margin: 100px auto;
 }
-#timer{
-	color: #deeaee;
-	transition: color 0.5s ease-in-out;
-}
 @keyframes fadeIn{
 	from{
 		opacity: 0;
@@ -26,6 +22,10 @@ div{
 	height: 100%;
 	z-index: 0;
 	animation: fadeIn 0.5s linear;
+}
+.timer{
+	color: #deeaee;
+	transition: color 0.5s ease-in-out;
 }
 .clicked{
 	color: #b8a9c9;
