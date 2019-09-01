@@ -1,4 +1,4 @@
-const timer = document.getElementById("timer");
+const timer = document.querySelector(".timer");
 const targetDate = new Date("Mar 12, 2020 00:00:00").getTime();
 const CLICKED_CLASS = "clicked";
 
