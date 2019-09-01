@@ -1,29 +1,15 @@
 <!DOCTYPE html>
-
-<head>
-	<meta charset="utf-8" >
-	<link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
-	<title> Countdown Timer </title>
-</head>
-<script>
-	var targetDate = new Date("Mar 12, 2020 00:00:00").getTime();
-	var timer = setInterval(function(){
-			var now = new Date().getTime();
-			var diff = targetDate - now;
-			var days = Math.floor(diff/(1000*60*60*24));
-			var hours = Math.floor(diff%(1000*60*60*24)/(1000*60*60));
-			var minutes = Math.floor(diff%(1000*60*60)/(1000*60));
-			var seconds = Math.floor(diff%(1000*60)/1000);
-			document.getElementById("timer").innerHTML = days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds";
-			if(diff<0){
-			   clearInteral(timer);
-			   document.getElementById("timer").innerHTML = "You are free to go!"
-			}
-		}, 1000);
-</script>
-<body>
-	<div>
-		<h1 id="timer"></h1>
-	</div>
-</body>
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<link rel="stylesheet" href="style.css">
+		<title> Countdown Timer </title>
+	</head>
+	<body>
+		<div>
+			<h1 id="timer"></h1>
+		</div>
+		<script src="timer.js"></script>
+		<script src="background.js"></script>
+	</body>
+</html>

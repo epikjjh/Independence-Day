@@ -1,26 +1,32 @@
-*{
-	margin: 0 auto;
-}
-html{
-	width: 100%;
-	height: 100%;
-}
 body{
-	min-width: 100%;
-	min-height: 100%;
-    background-color: #F44336;
+  	background-color: #d5e1df;
 	overflow: hidden;
 }
 div{
-	height: 50%;
-	margin: 260px auto;
+  	max-width: 750px;
+  	margin: 100px auto;
 }
 #timer{
-	color: #ffffff;
-	font-size: 50px;
-	font-family: 'Satisfy', serif;
-	font-weight: bold;
-	letter-spacing: 8px;
-	text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -3px 20px rgba(255,255,255,0.4);
-    text-align: center;
+	color: #deeaee;
+	transition: color 0.5s ease-in-out;
+}
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.bgImage{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	animation: fadeIn 0.5s linear;
+}
+.clicked{
+	color: #b8a9c9;
 }
