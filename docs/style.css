@@ -1,9 +1,11 @@
 body{
+	margin: 0 auto;
   	background-color: #d5e1df;
 	overflow: hidden;
 }
 div{
   	max-width: 750px;
+	max-height: 300px;
   	margin: 100px auto;
 }
 @keyframes fadeIn{
