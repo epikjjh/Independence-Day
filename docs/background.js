@@ -8,7 +8,7 @@ function generateRandom(){
 function paintImage(){
 	const num = generateRandom();
 	const img = new Image();
-	img.src = `/images/${num}.jpg`;
+	img.src = `./images/${num}.jpg`;
 	img.classList.add("bgImg");
 	body.prepend(img);
 }
