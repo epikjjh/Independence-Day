@@ -12,8 +12,8 @@ function init(){
 	const diff = today - startDate;
 	const ratio = (diff/duration*100).toFixed(1);
 	const barRatio = (ratio*0.98).toFixed(1);
+	percent.addEventListener("transitionend", handleTransition);
 	percent.style.width = `${barRatio}%`;
 	percent.innerText = `${ratio}%`;
-	percent.addEventListener("transitionend", handleTransition);
 }
 init();
