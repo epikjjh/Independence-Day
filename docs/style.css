@@ -66,16 +66,16 @@ h4{
   	font-weight: bold;
 }
 .percentage{
-  float: left;
-  margin: 10px 5px 10px 5px;
-  width: 0%;
-  height: 70%;
-  background-color: #dff9fb;
-  border-radius: 15px;
-  text-align: center;
-  font-size: 0%;
-  font-weight: bold;
-  color: #079992;
-  transition-property: width;
-  transition-duration: 1s;
+	float: left;
+	margin: 10px 5px 10px 5px;
+	width: 0%;
+	height: 70%;
+	background-color: #dff9fb;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 0%;
+	font-weight: bold;
+	color: #079992;
+	transition-property: width;
+	transition-duration: 1s;
 }

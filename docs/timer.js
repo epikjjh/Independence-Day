@@ -12,18 +12,18 @@ function getTime(){
 	const hours = Math.floor(diff%(1000*60*60*24)/(1000*60*60));
 	const minutes = Math.floor(diff%(1000*60*60)/(1000*60));
 	const seconds = Math.floor(diff%(1000*60)/1000);
-  timer_days.innerText = `${days} Days`
-  timer_hours.innerText = `${hours < 10 ? `0${hours}` : hours} Hours`
-  timer_minutes.innerText = `${minutes < 10 ? `0${minutes}` : minutes} Minutes`
-  timer_seconds.innerText = `${seconds < 10 ? `0${seconds}` : seconds} Seconds`
+  	timer_days.innerText = `${days} Days`
+  	timer_hours.innerText = `${hours < 10 ? `0${hours}` : hours} Hours`
+  	timer_minutes.innerText = `${minutes < 10 ? `0${minutes}` : minutes} Minutes`
+  	timer_seconds.innerText = `${seconds < 10 ? `0${seconds}` : seconds} Seconds`
 	return diff;
 }
 
 function handleClick(){
 	timer_days.classList.toggle(CLICKED_CLASS);
-  timer_hours.classList.toggle(CLICKED_CLASS);
-  timer_minutes.classList.toggle(CLICKED_CLASS);
-  timer_seconds.classList.toggle(CLICKED_CLASS);
+ 	timer_hours.classList.toggle(CLICKED_CLASS);
+ 	timer_minutes.classList.toggle(CLICKED_CLASS);
+ 	timer_seconds.classList.toggle(CLICKED_CLASS);
 }
 
 function init(){
@@ -35,8 +35,8 @@ function init(){
 		}
 	}, 1000);
 	timer_days.addEventListener("click", handleClick);
-  timer_hours.addEventListener("click", handleClick);
-  timer_minutes.addEventListener("click", handleClick);
-  timer_seconds.addEventListener("click", handleClick);
+  	timer_hours.addEventListener("click", handleClick);
+  	timer_minutes.addEventListener("click", handleClick);
+  	timer_seconds.addEventListener("click", handleClick);
 }
 init();
