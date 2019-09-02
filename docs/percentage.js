@@ -1,6 +1,6 @@
-const targetDate = new Date("Mar 12, 2020 00:00:00").getTime();
+const finishDate = new Date("Mar 12, 2020 00:00:00").getTime();
 const startDate = new Date("April 23, 2018 00:00:00").getTime();
-const duration = targetDate - startDate;
+const duration = finishDate - startDate;
 const percent = document.querySelector(".percentage");
 
 function handleTransition(){

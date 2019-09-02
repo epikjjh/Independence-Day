@@ -1,6 +1,6 @@
 html,body{
-  width:100%;
-  height:100%;
+ 	width:100%;
+ 	height:100%;
 }
 body{
 	margin: 0 auto;
@@ -8,20 +8,20 @@ body{
 	overflow: hidden;
 }
 div{
-  height: 40%;
+ 	height: 35%;
 	margin: 100px 50px auto;
 }
 h1{
-  font-size: 375%;
+ 	font-size: 8vh;
 }
 h2{
-  font-size: 350%;
+ 	font-size: 7vh;
 }
 h3{
-  font-size: 325%;
+ 	font-size: 6vh;
 }
 h4{
-  font-size: 300%;
+ 	font-size: 5vh;
 }
 @keyframes fadeIn{
 	from{
@@ -41,29 +41,29 @@ h4{
 	animation: fadeIn 0.5s linear;
 }
 .timer{
-  margin: 10px auto;
-  text-align: center;
-  font-weight: bold;
-	color: #92a8d1;
+ 	margin: 5px auto;
+ 	text-align: center;
+ 	font-weight: bold;
+	color: #d64161;
 	transition: color 0.5s ease-in-out;
 }
 .clicked{
-	color: #d64161;
+	color: #92a8d1;
 }
 .chart{
-  height: 10%;
-  margin: 10px auto;
+	height: 10%;
+  	margin: 10px auto;
 }
 .bgPlot{
-  height: 80%;
-  margin: 5px 50px 5px 50px;
-  display: block;
-  background-color: #4b4b4b;
-  border: 2px solid #f1c40f;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 300%;
-  font-weight: bold;
+ 	height: 80%;
+  	margin: 5px 50px 5px 50px;
+  	display: block;
+  	background-color: #4b4b4b;
+  	border: 2px solid #f1c40f;
+  	border-radius: 5px;
+  	text-align: center;
+  	font-size: 300%;
+  	font-weight: bold;
 }
 .percentage{
   float: left;
