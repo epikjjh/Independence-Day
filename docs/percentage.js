@@ -5,7 +5,7 @@ const percent = document.querySelector(".percentage");
 const plot = document.querySelector(".bgPlot");
 
 function handleTransition(){
- 	percent.style.fontSize = "70%";
+ 	percent.style.fontSize = "4vh";
 }
 
 function handleClick(){
