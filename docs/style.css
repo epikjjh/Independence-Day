@@ -8,8 +8,8 @@ body{
 	overflow: hidden;
 }
 div{
-  height: 50%;
-	margin: 100px auto;
+  height: 40%;
+	margin: 100px 50px auto;
 }
 h1{
   font-size: 375%;
@@ -43,9 +43,39 @@ h4{
 .timer{
   margin: 10px auto;
   text-align: center;
-	color: #034f84;
+  font-weight: bold;
+	color: #92a8d1;
 	transition: color 0.5s ease-in-out;
 }
 .clicked{
 	color: #d64161;
+}
+.chart{
+  height: 10%;
+  margin: 10px auto;
+}
+.bgPlot{
+  height: 80%;
+  margin: 5px 50px 5px 50px;
+  display: block;
+  background-color: #4b4b4b;
+  border: 2px solid #f1c40f;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+}
+.percentage{
+  float: left;
+  margin: 10px 5px 10px 5px;
+  width: 0%;
+  height: 70%;
+  background-color: #dff9fb;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 0%;
+  font-weight: bold;
+  color: #079992;
+  transition-property: width;
+  transition-duration: 1s;
 }
